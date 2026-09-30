@@ -1,0 +1,75 @@
+{
+    "experiment": {
+        "dataset_size": 20000,
+        "training_size": 16000,
+        "testing_size": 4000,
+        "positive_cases": 2232,
+        "negative_cases": 17768,
+        "random_state": 42
+    },
+    "Logistic_Regression": {
+        "best_parameters": {
+            "model__solver": "liblinear",
+            "model__class_weight": null,
+            "model__C": 1
+        },
+        "best_cv_f1": 0.237800531037874,
+        "test_metrics": {
+            "threshold": 0.5,
+            "accuracy": 0.6565,
+            "precision": 0.16666666666666666,
+            "recall": 0.5201793721973094,
+            "f1": 0.25244831338411317,
+            "roc_auc": 0.6432296332560294,
+            "pr_auc": 0.20444264801593365,
+            "confusion_matrix": [
+                [
+                    2394,
+                    1160
+                ],
+                [
+                    214,
+                    232
+                ]
+            ],
+            "true_negative": 2394,
+            "false_positive": 1160,
+            "false_negative": 214,
+            "true_positive": 232
+        }
+    },
+    "Random_Forest": {
+        "best_parameters": {
+            "model__n_estimators": 100,
+            "model__min_samples_split": 5,
+            "model__min_samples_leaf": 1,
+            "model__max_features": "log2",
+            "model__max_depth": 8,
+            "model__class_weight": null
+        },
+        "best_cv_f1": 0.21531157336354187,
+        "test_metrics": {
+            "threshold": 0.5,
+            "accuracy": 0.78775,
+            "precision": 0.18952234206471494,
+            "recall": 0.2757847533632287,
+            "f1": 0.22465753424657534,
+            "roc_auc": 0.6210563604200156,
+            "pr_auc": 0.18230504339344858,
+            "confusion_matrix": [
+                [
+                    3028,
+                    526
+                ],
+                [
+                    323,
+                    123
+                ]
+            ],
+            "true_negative": 3028,
+            "false_positive": 526,
+            "false_negative": 323,
+            "true_positive": 123
+        }
+    }
+}

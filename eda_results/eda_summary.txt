@@ -1,0 +1,33 @@
+30-Day Hospital Readmission Dataset - EDA
+==================================================
+
+Dataset shape: (101766, 50)
+
+Readmission distribution:
+readmitted
+NO     54864
+>30    35545
+<30    11357
+Name: count, dtype: int64
+
+Readmission percentages:
+readmitted
+NO     53.91
+>30    34.93
+<30    11.16
+Name: proportion, dtype: float64
+
+Missing values:
+max_glu_serum    96420
+A1Cresult        84748
+dtype: int64
+
+Unknown '?' values:
+race                  2273
+weight               98569
+payer_code           40256
+medical_specialty    49949
+diag_1                  21
+diag_2                 358
+diag_3                1423
+dtype: int64

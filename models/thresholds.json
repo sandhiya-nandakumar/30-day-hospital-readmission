@@ -1,0 +1,7 @@
+{
+    "Logistic Regression": 0.5500000000000002,
+    "Random Forest": 0.5000000000000001,
+    "RBF SVM": 0.5,
+    "XGBoost": 0.5,
+    "Stacking Ensemble": 0.5
+}

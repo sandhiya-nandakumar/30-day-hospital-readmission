@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+.venv/
+predictions.db
+models/*.joblib
+models/metrics.json
+data/diabetic_data.csv
